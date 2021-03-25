@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+body {
+	text-align: center;
+  padding: 0;
+	margin: 0;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+  zoom: 140%;
+  background-image: url("background-01.svg");
+  font-family:  'Passion One', cursive;
+  
+}
+
+.board{
+  
+ 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.board td {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  transition: 0.5s;
+  background-image: url("cell-01.svg");
+}
+
+
+.clicked {
+  background-color: #7a381d;
+  border: none;
+}
+
+
+.timer{
+font-size: 50px;
+
+}
+
+
+button{
+outline:none;
+background: url("buttonlevelnew-01.svg");
+zoom: 50%;
+font-family:'Passion One', cursive;
+font-size: 40px;
+border: 30px;
+height: 120px;
+width:350px
+
+}
+
+button:focus {
+  background: url("buttonlevelnewonclike-01.svg");
+  transform: translateY(4px);
+}
+
+
+button:hover {
+ 
+  background: url("buttonlevelnewonclike-01.svg");
+  transform: translateY(4px);
+}
+
+
+.next{
+  margin-bottom: -5px;
+  font-size: 50px;
+  color: #7a381d;
+
+
+
+
+}
